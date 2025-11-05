@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Reading Practice — Index</title>
+<style>
+  :root{ --bg:#fff; --text:#111; --muted:#5b5e64; --brand:#1a73e8; --border:#e6e8ee; --panel:#0b0b0b;
+         --choice:#f3f4f7; --choice-border:#dfe3ea; --choice-hover:#e9eef7; --correct:#188038; --wrong:#d93025; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.6}
+  .topbar{background:var(--panel);color:#fff;padding:14px 16px;position:sticky;top:0;z-index:10}
+  .wrap{max-width:960px;margin:0 auto;padding:0 16px}
+  .title{font-weight:800;font-size:1.05rem}.subtitle{opacity:.8;font-size:.9rem}
+  main{padding:18px 0 40px}.card{border:1px solid var(--border);background:#fff;border-radius:12px;padding:16px;margin:14px 0}
+  .passage{border:1px solid var(--border);border-radius:10px;padding:14px;background:#fcfdff}
+  .qhead{font-weight:700;margin-top:12px}.choose{margin:10px 0 6px;font-weight:600}
+  .choices{display:grid;gap:10px}.choice{display:flex;gap:12px;align-items:flex-start;padding:12px;background:var(--choice);border:1px solid var(--choice-border);border-radius:10px;cursor:pointer}
+  .choice:hover{background:var(--choice-hover)}.circle{width:22px;height:22px;border:2px solid var(--choice-border);border-radius:50%;display:inline-block;margin-top:2px;flex:0 0 auto}
+  input[type="radio"]{display:none}input[type="radio"]:checked + .circle{border-color:var(--brand);box-shadow:0 0 0 4px rgba(26,115,232,.15) inset}
+  .nav{display:flex;gap:10px;margin-top:16px}button{border:1px solid var(--border);background:#fff;border-radius:10px;padding:10px 14px;cursor:pointer}
+  button.primary{background:var(--brand);color:#fff;border-color:var(--brand)}button:disabled{opacity:.5;cursor:not-allowed}
+  .resultBox{border:1px solid var(--border);background:#f7fafc;border-radius:12px;padding:16px}.good{color:var(--correct);font-weight:800}.bad{color:var(--wrong);font-weight:800}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--border);background:#f6f7fb;font-size:.85rem;color:#333}
+  .muted{color:var(--muted)} .footnote{color:var(--muted);font-size:.9rem;margin-top:10px}
+  .list{display:grid;gap:10px} .tile{border:1px solid var(--border);border-radius:12px;padding:14px;background:#fff;display:flex;gap:10px;align-items:center;text-decoration:none;color:inherit}
+  .tile .spacer{flex:1}
+  .small{font-size:.92rem}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><div class="title">Reading Practice — IELTS-style</div><div class="subtitle">10 quizzes • 20 questions each • One question per page • Submit at the end</div></div></div>
+<main class="wrap">
+<section class="card"><div style="font-weight:800;font-size:1.1rem;margin-bottom:6px">Choose a Test</div><div class="list"><a class="tile" href="test_01.html"><div><strong>Test 1:</strong> The Expansion of High-Speed Rail</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_02.html"><div><strong>Test 2:</strong> Urban Change</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_03.html"><div><strong>Test 3:</strong> Renewable Energy</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_04.html"><div><strong>Test 4:</strong> Ancient Civilizations</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_05.html"><div><strong>Test 5:</strong> Ocean Currents</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_06.html"><div><strong>Test 6:</strong> Digital Society</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_07.html"><div><strong>Test 7:</strong> Arctic Exploration</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_08.html"><div><strong>Test 8:</strong> Space Communication</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_09.html"><div><strong>Test 9:</strong> Cultural Exchange</div><div class="spacer"></div><div class="pill">Start</div></a>
+<a class="tile" href="test_10.html"><div><strong>Test 10:</strong> Future Transport</div><div class="spacer"></div><div class="pill">Start</div></a></div><p class="muted" style="margin-top:10px">Scores save locally. See <a href="results.html">Results History</a>.</p></section>
+</main>
+</body>
+</html>
